@@ -1,14 +1,13 @@
 {
-    "name": "dragonmantank/glitch-php-skeleton",
-    "description": "A small skeleton for using PHP on glitch.com",
+    "name": "piconaut/blinkiegen",
+    "description": "a simple blinkie generator in php",
     "keywords": [],
-    "homepage": "https://github.com/dragonmantank/glitch-php-skeleton",
+    "homepage": "https://github.com/piconaut/blinkiegen",
     "license": "MIT",
     "authors": [
         {
-            "name": "Chris Tankersley",
-            "email": "chris@ctankersley.com",
-            "homepage": "https://ctankersley.com"
+            "name": "Amy Fare",
+            "homepage": "https://blinkies.cafe"
         }
     ],
     "require": {
