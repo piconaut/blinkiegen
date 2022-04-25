@@ -12,7 +12,7 @@ popen("convert -pointsize 16 +antialias -gravity Center -font fonts/" . $font . 
 echo '
 <html>
   <h2>your blinkie maker!</h2>
-	<form action="/blinkiegen.php" method="post" formtarget="outputFrame">
+	<form action="/index.php" method="post" formtarget="outputFrame">
   	<label for="instyle">style: </label>  
   	<select id="instyle" name="instyle">
   		<option value="00-red">00-red</option>
