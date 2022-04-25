@@ -1,5 +1,13 @@
 # blinkiegen
-simple blinkie generator in php
+simple blinkie generator in php. adds text to blinkies.
+
+features:
+* select blinkie style
+* select font
+* select text colour
+
+you may also be interested in my [piconaut/blinkies.cafe](https://github.com/piconaut/blinkies.cafe) repo, which is a node.js blinkie maker / web server with a different set of features.
+
 
 ## to run:
 * i guess this depends where you're running/hosting?
