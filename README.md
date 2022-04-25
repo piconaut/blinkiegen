@@ -28,19 +28,19 @@ you may also be interested in my [piconaut/blinkies.cafe](https://github.com/pic
 
 6) press Ctrl+Shift+V to paste the URL you copied in Step 2. The command line should look kinda like this, but with a different URL:
 
-`wget https://cdn.glitch.global/2c0d59b9-4345-48bb-aff6-858a6e656a20/blinkiesCafe-o4.gif?v=1650903842137`
+    `wget https://cdn.glitch.global/2c0d59b9-4345-48bb-aff6-858a6e656a20/blinkiesCafe-o4.gif?v=1650903842137`
 
 7) type ` -O ` (with a space both before and after)
 
 8) type a filename for your blank gif, like `example.gif`. So in total your command line should look like this, but with a different URL and filename:
 
-`wget https://cdn.glitch.global/2c0d59b9-4345-48bb-aff6-858a6e656a20/blinkiesCafe-o4.gif?v=1650903842137 -O 04-mushroom.gif`
+    `wget https://cdn.glitch.global/2c0d59b9-4345-48bb-aff6-858a6e656a20/blinkiesCafe-o4.gif?v=1650903842137 -O 04-mushroom.gif`
 
-press Enter.
+    press Enter.
 
 10) in `index.php`, add an `<option>` element to the style select dropdown, `<select id="instyle" name="instyle">`. set its `value` to match the filename of the blank gif (without the `.gif` extension).
 
-`<option value="example">Your Style Name!</option>`
+    `<option value="example">Your Style Name!</option>`
 
 
 # to add a new style (General):
